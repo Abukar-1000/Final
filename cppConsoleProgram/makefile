@@ -11,5 +11,5 @@ valgrind:
 run: myProgram
 	./myProgram
 clean:
-	del *.o
-	del myProgram
+	rm *.o
+	rm myProgram
