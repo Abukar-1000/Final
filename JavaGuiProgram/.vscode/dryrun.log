@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'c:/Users/Abuka/OneDrive/Desktop/New folder/gui'
+javac -g AutoTour.java 
+javac -g Main.java
+make.exe: Leaving directory 'c:/Users/Abuka/OneDrive/Desktop/New folder/gui'
+ 
