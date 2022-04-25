@@ -1,8 +1,15 @@
-Main.class: Main.java AutoTour.class
-	javac -g Main.java
-AutoTour.class: AutoTour.java
-	javac -g AutoTour.java 
+Main.class: Node.class Board.class AutoTour.class LaunchPage.class
+	javac -g Main.java 
+Node.class: Node.java
+	javac -g Node.java 
+Board.class: Board.java Node.java
+	javac -g Board.java
+AutoTour.class: AutoTour.java Board.java Node.java
+	javac -g AutoTour.java
+LaunchPage.class: LaunchPage.java AutoTour.java Board.java Node.java
+	javac -g LaunchPage.java
 run: Main.class
 	java Main
 clean:
-	del *.class
+	rm *.class
+	rm Main.class
