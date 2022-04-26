@@ -1,2 +1,2 @@
-# term
+**term**
 : definition
