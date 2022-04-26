@@ -12,6 +12,7 @@ Attributes:
 - Node nextNode
 
 ## Methods
+
 setX(int x)
 :sets the x atribute of a node instance
 setY(int y)
