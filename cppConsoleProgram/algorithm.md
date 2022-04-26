@@ -49,3 +49,24 @@ Next I will have a method to construct my map. It will take in a node's x & y va
 Then I will find the nodes with the given legal position and create a container containing all the nodes that have legal positions.
 Then set the nodes degree to how many legal positons can be visited from it.
 lastly insert the pair into the map {node,container of neighbnors}.
+## update the degree
+For my algortihm it is crutial that I update the degree after each itteration of my program when a node is visited, any node that has that node as a neighbor should have its degree updated.
+I will create a method that takes in a node, then gets the neighbors from my map.
+Now having the neighbors I will check their isVisited attribute, if the attribute is false i will incerement a counter, if its true I wont do anything.
+Then set the ndoe's degree to counter.
+
+## Discalimer
+I am well aware that creating a node instance for each spot on the chess board was unnesisairy for a console program and that I could have done it functionally instead. The reason I did it like this was that I do plan on implementing a gui, and the concept of a linked list is part of my gui. I would create a liked list and traverse it. At each given node in the linked list will figure out wich button to press based on the x & y value of the node.
+
+## Algorithm
+1. create a counter variable, will be used to keep track of when each spot on the chess board was visited.
+2. create a while loop for the duration of the tour.
+3. check if the counter is equal to the total number of nodes, this indicates that all spots have been visited. If so end the loop.
+4. check if the current spot which is a node instance, is not null.
+5. if it is not null, set current spot orderVisited attribute to the value of the counter variable.
+6. Then set current spot isVisited to true.
+7. then update the degree of the current spot.
+8. Then find the neighbor with the least degree.
+9. Then set the current spot to the neighbor with the least degree.
+10. if the current spot is null, then we have reached a dead end so end the loop.
+
