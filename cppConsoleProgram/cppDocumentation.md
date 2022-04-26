@@ -14,28 +14,38 @@ Attributes:
 ### Methods
 
 setX(int x)
-: sets the x atribute of a node instance
+:sets the x atribute of a node instance
 
 setY(int y)
-:sets the y atribute of a node instance
+: sets the y atribute of a node instance
+
 setDegree(int degree)
 : sets the degree atribute of a node instance
+
 setOrderVisited(int order)
 : sets the orderVisited atribute of a node instance
+
 setIsVisited(bool visited)
 : sets the isVisited atribute of a node instance
+
 setNextNode(Node* next)
 : sets the nextNode atribute of a node instance
 
 getX()
 : gets the x atribute of a node instance
+
 getY()
 : gets the y atribute of a node instance
+
 getDegree()
 : gets the degree atribute of a node instance
+
 getOrderVisited()
 : gets the orderVisited atribute of a node instance
+
 getIsVisited()
 : gets the isVisited atribute of a node instance
+
 getNextNode()
 : gets the nextNode atribute of a node instance
+
