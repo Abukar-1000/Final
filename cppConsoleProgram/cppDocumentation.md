@@ -11,7 +11,7 @@ Attributes:
 - bool isVisited
 - Node nextNode
 
-## Methods
+### Methods
 
 setX(int x)
 : sets the x atribute of a node instance
