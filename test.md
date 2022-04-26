@@ -8,13 +8,13 @@ Attributes:
 - map<Node*, std::vector<Node*>> chessBoard
 
 ### Methods
-createAllNodes(int x,int y,int counter,ArrayList<Node> allNodes)
+createAllNodes
 : Creats all unique nodes on the heap and stores thei pointers inside allNodes attribute.
 
 findNode(int x, int y, int index, Node node)
 : Should recursively look for an already existing node with the given x & y attributes, returns a pointer to the instance.
 
-FindNeighbors(int x, int y, int index, ArrayList<Node> neighbors)
+findNeighbors(int x, int y, int index, ArrayList<Node> neighbors)
 : Given an x and y value should find all the leagal nodes that can be visited from the current spot.
 : Returns a vector containing Node pointers.
 
