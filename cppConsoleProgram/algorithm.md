@@ -1,2 +1,4 @@
-**term**
-: definition
+# Goals
+# Inputs
+# Outputs
+# steps
