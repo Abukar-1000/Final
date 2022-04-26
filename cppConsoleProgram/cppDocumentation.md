@@ -15,6 +15,7 @@ Attributes:
 
 setX(int x)
 : sets the x atribute of a node instance
+
 setY(int y)
 :sets the y atribute of a node instance
 setDegree(int degree)
